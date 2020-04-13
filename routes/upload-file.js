@@ -49,7 +49,7 @@ var imageDetails = new uploadModel({
 
 
 /* GET home page. */
- router.get('/upload', function (req, res, next) {
+ router.get('/', function (req, res, next) {
 
   //display uploaded file in UI
  imageData.exec(function (err, data) {
